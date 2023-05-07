@@ -1,0 +1,53 @@
+!
+!http://st.suckless.org/patches/dracula/st-dracula-0.8.2.diff 
+!
+#define black0  #000000
+#define black1  #44475a
+#define black2  #6272a4
+#define blue	#bd93f9
+#define cyan    #8be9fd
+#define green   #50fa7b
+#define red1    #f1fa8c
+#define red2    #ff5555 
+#define magenta #ff79c6
+#define yellow  #f1fa8c
+#define white   #f8f8f2
+
+! Special colors
+#define background #282a36
+#define foreground #f8f8f2 
+
+*.background:	background
+*.foreground:	foreground
+
+! Black + DarkGrey
+*.color0:	black0
+*.color8:	black1
+
+! DarkRed + Red
+*.color1:	red
+*.color9:	red
+
+! DarkGreen + Green
+*.color2:	green
+*.color10:	green 
+
+! DarkYellow + Yellow
+*.color3:	yellow 
+*.color11:	yellow 
+
+! DarkBlue + Blue
+*.color4:  	blue
+*.color12:	blue 
+
+! DarkMagenta + Magenta
+*.color5:	magenta
+*.color13:	magenta
+
+! DarkCyan + Cyan
+*.color6: 	cyan
+*.color14:	cyan
+
+! LightGrey + White
+*.color7:	white
+*.color15:	white 

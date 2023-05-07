@@ -1,0 +1,52 @@
+!
+! https://st.suckless.org/patches/nordtheme/st-nordtheme-0.8.5.diff
+!
+! Regular and Bright Colors
+#define black0   #3b4252
+#define black1   #4c566a
+#define blue 	 #81a1c1
+#define cyan0  	 #88c0d0
+#define cyan1  	 #8fbcbb
+#define green	 #a3be8c
+#define magenta  #b48ead
+#define red      #bf616a
+#define white0    #e5e9f0
+#define white1    #eceff4
+#define yellow    #ebcb8b
+
+! Special colors
+#define background	#2e3440
+#define foreground	#d8dee9
+
+*.background:  background
+*.foreground:	foreground
+
+! Black + DarkGrey
+*.color0:	black0
+*.color8:	black1
+
+! DarkRed + Red
+*.color1:	red 
+*.color9:	red  
+
+! DarkYellow + Yellow
+*.color3:	yellow 
+*.color11:	yellow
+
+! DarkBlue + Blue
+*.color4:  	blue
+*.color12:	blue 
+
+! DarkMagenta + Magenta
+*.color5:	magenta
+*.color13:	magenta
+
+! DarkCyan + Cyan
+*.color6: 	cyan0
+*.color14:	cyan1
+
+! LightGrey + White
+*.color7:	white0
+*.color15:	white1
+
+
