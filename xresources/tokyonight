@@ -1,0 +1,55 @@
+#define White     #c0caf5 
+#define black     #414868
+#define gray1     #9aa5ce
+#define gray2     #565f89
+#define red1      #f7768e
+#define green1    #9ece6a 
+#define green2    #73daca
+#define yellow1   #cfc9c2
+#define yellow2 
+#define blue1     #2ac3de
+#define blue2     #7dcfff 
+#define purple1   #bb9af7 
+#define purple2   #7aa2f7 
+#define aqua1   
+#define aqua2   
+#define orange1   #e0af68 
+#define orange2   #ff9e64 
+
+#define foreground  #a9b1d6
+#define background  #1a1b26 
+
+*.background:	background
+*.foreground:	foreground
+
+! Black + DarkGrey
+*.color0:	black
+*.color8:	gray1
+
+! DarkRed + Red
+*.color1:	red1 
+*.color9:	red1  
+
+! DarkGreen + Green
+*.color2:	green1 
+*.color10:	green2 
+
+! DarkYellow + Yellow
+*.color3:	yellow1 
+*.color11:	yellow1 
+
+! DarkBlue + Blue
+*.color4:  	blue1
+*.color12:	blue2 
+
+! DarkMagenta + Magenta
+*.color5:	purple1  
+*.color13:	purple2 
+
+! DarkCyan + Cyan
+*.color6: 	orange1
+*.color14:	orange2
+
+! LightGrey + White
+*.color7:	gray2  
+*.color15:	white 
