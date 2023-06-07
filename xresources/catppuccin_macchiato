@@ -1,0 +1,61 @@
+#define base #24273a 
+#define mantle #1e2030
+#define crust #181926
+#define surface0 #1f1d2e
+#define surface1 #363a4f
+#define surface2 #5b6078 
+#define overlay0 #26233a  
+#define overlay1 #8087a2
+#define overlay2 #939ab7
+#define subtext0 #a5adcb
+#define subtext1 #b8c0e0
+#define text #cad3f5
+#define lavender #b7bdf8
+#define blue #8aadf4
+#define sapphire #7dc4e4
+#define sky #91d7e3
+#define teal #8bd5ca
+#define green #a6da95
+#define yellow #eed49f
+#define peach #f5a97f
+#define maroon #ee99a0
+#define red #ed8796
+#define mauve #c6a0f6
+#define pink #f5bde6
+#define flamingo #f0c6c6
+#define rosewater #f4dbd6
+
+*.background:	base
+*.foreground:	text
+
+! Black + DarkGrey
+*.color0:	mantle
+*.color8:	overlay1
+
+! DarkRed + Red
+*.color1:	red
+*.color9:	maroon
+
+! DarkGreen + Green
+*.color2:	green
+*.color10:	teal
+
+! DarkYellow + Yellow
+*.color3:	peach
+*.color11:	yellow
+
+! DarkBlue + Blue
+*.color4:  	blue
+*.color12:	sapphire
+
+! DarkMagenta + Magenta
+*.color5:	mauve
+*.color13:	lavender
+
+! DarkCyan + Cyan
+*.color6: 	flamingo
+*.color14:	rosewater
+
+! LightGrey + White
+*.color7:	subtext1
+*.color15:	text
