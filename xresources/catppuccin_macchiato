@@ -27,35 +27,53 @@
 
 *.background:	base
 *.foreground:	text
+*background:	base
+*foreground:	text
 
 ! Black + DarkGrey
 *.color0:	mantle
 *.color8:	overlay1
+*color0:	mantle
+*color8:	overlay1
 
 ! DarkRed + Red
 *.color1:	red
 *.color9:	maroon
+*color1:	red
+*color9:	maroon
 
 ! DarkGreen + Green
 *.color2:	green
 *.color10:	teal
+*color2:	green
+*color10:	teal
 
 ! DarkYellow + Yellow
 *.color3:	peach
 *.color11:	yellow
+*color3:	peach
+*color11:	yellow
 
 ! DarkBlue + Blue
 *.color4:  	blue
 *.color12:	sapphire
+*color4:  	blue
+*color12:	sapphire
 
 ! DarkMagenta + Magenta
 *.color5:	mauve
 *.color13:	lavender
+*color5:	mauve
+*color13:	lavender
 
 ! DarkCyan + Cyan
 *.color6: 	flamingo
 *.color14:	rosewater
+*color6: 	flamingo
+*color14:	rosewater
 
 ! LightGrey + White
 *.color7:	subtext1
 *.color15:	text
+*color7:	subtext1
+*color15:	text
