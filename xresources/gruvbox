@@ -20,35 +20,54 @@
 
 *.background:	black0 
 *.foreground:	white 
+*background:	black0 
+*foreground:	white 
 
 ! Black + DarkGrey
 *.color0:	black
 *.color8:	gray1
+*color0:	black
+*color8:	gray1
 
 ! DarkRed + Red
 *.color1:	red1 
 *.color9:	red2  
+*color1:	red1 
+*color9:	red2  
 
 ! DarkGreen + Green
 *.color2:	green1 
 *.color10:	green2 
+*color2:	green1 
+*color10:	green2 
 
 ! DarkYellow + Yellow
 *.color3:	yellow1 
 *.color11:	yellow2 
+*color3:	yellow1 
+*color11:	yellow2 
 
 ! DarkBlue + Blue
 *.color4:  	blue1
 *.color12:	blue2 
+*color4:  	blue1
+*color12:	blue2 
 
 ! DarkMagenta + Magenta
 *.color5:	purple1  
 *.color13:	purple2 
+*color5:	purple1  
+*color13:	purple2 
 
 ! DarkCyan + Cyan
 *.color6: 	aqua1 
 *.color14:	aqua2 
+*color6: 	aqua1 
+*color14:	aqua2 
 
 ! LightGrey + White
 *.color7:	gray2  
 *.color15:	white 
+*color7:	gray2  
+*color15:	white 
+
