@@ -17,35 +17,53 @@
 
 *.background:	base
 *.foreground:	text
+*background:	base
+*foreground:	text
 
 ! Black + DarkGrey
 *.color0:	base
 *.color8:	muted
+*color0:	base
+*color8:	muted
 
 ! DarkRed + Red
 *.color1:	rose
 *.color9:	rose_1
+*color1:	rose
+*color9:	rose_1
 
 ! DarkGreen + Green
 *.color2:	pine
 *.color10:	foam
+*color2:	pine
+*color10:	foam
 
 ! DarkYellow + Yellow
 *.color3:	gold
 *.color11:	gold_1
+*color3:	gold
+*color11:	gold_1
 
 ! DarkBlue + Blue
 *.color4:  	pine
 *.color12:	foam
+*color4:  	pine
+*color12:	foam
 
 ! DarkMagenta + Magenta
 *.color5:	iris
 *.color13:	iris_1
+*color5:	iris
+*color13:	iris_1
 
 ! DarkCyan + Cyan
 *.color6: 	rose
 *.color14:	rose_1
+*color6: 	rose
+*color14:	rose_1
 
 ! LightGrey + White
 *.color7:	subtle
 *.color15:	text
+*color7:	subtle
+*color15:	text
