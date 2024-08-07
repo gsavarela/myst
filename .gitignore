@@ -1,5 +1,6 @@
-*st
-*.o
+st
+st.o
+x.o
 config.h
 patches.h
 xresources/theme
